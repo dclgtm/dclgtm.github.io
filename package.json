@@ -4,7 +4,7 @@
     "description": "static website hosted fom github pages",
     "main": "index.html",
     "scripts": {
-      "start": "sass --watch sass:support/css",
+      "start": "sass --watch css/style.scss css/style.css",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "Dclgtm",
