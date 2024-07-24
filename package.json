@@ -1,0 +1,13 @@
+{
+    "name": "blog.gramasabha.com",
+    "version": "1.0.0",
+    "description": "static website hosted fom github pages",
+    "main": "index.html",
+    "scripts": {
+      "start": "sass --watch sass:support/css",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Dclgtm",
+    "license": "ISC"
+  }
+  

@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'malayalee';
+    src: url('./../thanks/Chilanka.ttf');
+}
+
+body {
+    // background-color: #284174;
+    color: #159957;
+    margin: 0;
+    font-size: 16px;
+
+    >header {
+        color: #fff;
+        text-align: center;
+        background-color: #159957;
+        background-image: linear-gradient(120deg, #155799, #159957);
+
+        h1 {
+            margin-top: 0;
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #ddd;
+        }
+    }
+}
+
+.kayyezhuth {
+    font-family: "malayalee";
+}
+
+
+#main-content {
+    position: relative;
+    margin: 0 auto;
+    max-width: 800px;
+    letter-spacing: 1px;
+    padding: 10px;
+    word-spacing: 4px;
+
+    h1 {
+        font-size: 1.6em;
+        line-height: 1em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    h4 {
+        font-size: 1.2em;
+    }
+
+    h5 {
+        font-size: 1.1em;
+        margin-bottom: 1rem;
+    }
+
+    h6 {
+        font-weight: bold;
+    }
+
+    a {
+        /* text-decoration: none; */
+        color: #ffffff;
+    }
+
+    p.imp {
+        text-decoration: underline;
+    }
+
+    .alert {
+        color: yellow;
+    }
+
+    mark {
+        color: yellow;
+        background-color: #284174;
+    }
+
+    blockquote {
+        color: #25d366;
+
+        &::before {
+            content: '\201C';
+        }
+
+        &::after {
+            content: '\201D';
+        }
+    }
+
+    .hor-center {
+        padding-top: 20px;
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+
+        .hor-center img {
+            width: 100%;
+        }
+    }
+
+    .auto-width {
+        min-width: 100px;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .bold {
+        font-weight: 800;
+    }
+
+    .class1 {
+        font-size: 23px;
+        font-weight: 600;
+    }
+
+    .sub-content {
+        margin: 0 30px 5px 10px;
+    }
+
+    .small-font {
+        font-size: 15px;
+    }
+
+    sub,
+    sup {
+        font-size: 75%;
+        line-height: 0;
+        position: relative;
+        vertical-align: baseline
+    }
+
+    sup {
+        top: -0.5em
+    }
+
+    sub {
+        bottom: -0.25em
+    }
+
+    img {
+        border: 0
+    }
+
+    svg:not(:root) {
+        overflow: hidden
+    }
+
+
+    hr {
+        box-sizing: content-box;
+        height: 0
+    }
+
+}
+
+footer {
+
+    margin: 1rem;
+    color: #ccc;
+    font-size: 0.8rem;
+    border-top: 1px solid #d8e9ea;
+    padding: 2rem 0 1rem;
+    a{
+        color: #0060df
+    }
+}
+
+
+/* @media (680px <=height),
+screen and (orientation: portrait) {
+    .btn {
+        background-color: red;
+    }
+} */
+
+@media (orientation: landscape) {
+    body {
+        >header {
+            padding: 5rem 6rem;
+        }
+    }
+}
+
+
+/* maximum width for mobiles*/
+@media (max-width: 767px) {
+    #main-content {
+        word-break: break-word;
+    }
+
+}
+
+/* minimum width for tablets*/
+@media (min-width: 768px) {
+    .hor-center {
+        width: 300px;
+    }
+}

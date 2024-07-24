@@ -1,0 +1,167 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "malayalee";
+  src: url("./../thanks/Chilanka.ttf");
+}
+body {
+  color: #159957;
+  margin: 0;
+  font-size: 16px;
+}
+body > header {
+  color: #fff;
+  text-align: center;
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, #159957);
+}
+body > header h1 {
+  margin-top: 0;
+}
+body > header h2 {
+  margin-top: 0;
+  color: #ddd;
+}
+
+.kayyezhuth {
+  font-family: "malayalee";
+}
+
+#main-content {
+  position: relative;
+  margin: 0 auto;
+  max-width: 800px;
+  letter-spacing: 1px;
+  padding: 10px;
+  word-spacing: 4px;
+}
+#main-content h1 {
+  font-size: 1.6em;
+  line-height: 1em;
+}
+#main-content h2 {
+  font-size: 1.4em;
+}
+#main-content h3 {
+  font-size: 1.3em;
+}
+#main-content h4 {
+  font-size: 1.2em;
+}
+#main-content h5 {
+  font-size: 1.1em;
+  margin-bottom: 1rem;
+}
+#main-content h6 {
+  font-weight: bold;
+}
+#main-content a {
+  /* text-decoration: none; */
+  color: #ffffff;
+}
+#main-content p.imp {
+  text-decoration: underline;
+}
+#main-content .alert {
+  color: yellow;
+}
+#main-content mark {
+  color: yellow;
+  background-color: #284174;
+}
+#main-content blockquote {
+  color: #25d366;
+}
+#main-content blockquote::before {
+  content: "“";
+}
+#main-content blockquote::after {
+  content: "”";
+}
+#main-content .hor-center {
+  padding-top: 20px;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+#main-content .hor-center .hor-center img {
+  width: 100%;
+}
+#main-content .auto-width {
+  min-width: 100px;
+}
+#main-content .text-center {
+  text-align: center;
+}
+#main-content .bold {
+  font-weight: 800;
+}
+#main-content .class1 {
+  font-size: 23px;
+  font-weight: 600;
+}
+#main-content .sub-content {
+  margin: 0 30px 5px 10px;
+}
+#main-content .small-font {
+  font-size: 15px;
+}
+#main-content sub,
+#main-content sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+#main-content sup {
+  top: -0.5em;
+}
+#main-content sub {
+  bottom: -0.25em;
+}
+#main-content img {
+  border: 0;
+}
+#main-content svg:not(:root) {
+  overflow: hidden;
+}
+#main-content hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+footer {
+  margin: 1rem;
+  color: #ccc;
+  font-size: 0.8rem;
+  border-top: 1px solid #d8e9ea;
+  padding: 2rem 0 1rem;
+}
+footer a {
+  color: #0060df;
+}
+
+/* @media (680px <=height),
+screen and (orientation: portrait) {
+    .btn {
+        background-color: red;
+    }
+} */
+@media (orientation: landscape) {
+  body > header {
+    padding: 5rem 6rem;
+  }
+}
+/* maximum width for mobiles*/
+@media (max-width: 767px) {
+  #main-content {
+    word-break: break-word;
+  }
+}
+/* minimum width for tablets*/
+@media (min-width: 768px) {
+  .hor-center {
+    width: 300px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
