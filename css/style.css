@@ -129,6 +129,9 @@ body > header h2 {
   box-sizing: content-box;
   height: 0;
 }
+#main-content a.ext-link {
+  color: #0060df;
+}
 
 footer {
   margin: 1rem;
