@@ -1,0 +1,9 @@
+ <svg height="200" width="200" xmlns="http://www.w3.org/2000/svg">
+  <circle r="5" cx="100" cy="20" fill="red" />
+  <circle r="5" cx="100" cy="105" fill="green" />
+  <circle r="5" cx="100" cy="180" fill="blue" />
+  <circle r="5" cx="40" cy="160" fill="yellow" />
+  <circle r="5" cx="160" cy="160" fill="chocolate" />
+  <circle r="5" cx="25" cy="60" fill="violet" />
+  <circle r="5" cx="175" cy="60" fill="brown" />
+</svg> 
